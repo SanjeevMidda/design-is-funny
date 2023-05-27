@@ -1,0 +1,35 @@
+*{
+  margin:0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  background-color: rgb(189, 185, 167);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("./images//ribbon.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+  margin: 30px;
+}
+
+.mainText h1{
+  font-weight: 500;
+  font-size: 200px;
+  margin-left: 30px;
+}
+
+span{
+  font-style: italic;
+}
